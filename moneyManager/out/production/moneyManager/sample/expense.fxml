@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:controller="sample.ExpenseController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="338.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="90.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert Amount">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="105.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="amountBox" layoutX="73.0" layoutY="63.0" />
+      <TextField fx:id="descriptionBox" layoutX="73.0" layoutY="141.0" />
+      <Button onAction="#saveExpense"  layoutX="126.0" layoutY="288.0" mnemonicParsing="false" text="SABI" />
+      <TextField fx:id="descriptionBox1" layoutX="76.0" layoutY="207.0" />
+      <Text layoutX="102.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
